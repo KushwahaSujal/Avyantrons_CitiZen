@@ -5,11 +5,5 @@
   "installCommand": "npm ci",
   "outputDirectory": ".next",
   "cleanUrls": true,
-  "trailingSlash": false,
-  "functions": {
-    "api/**": {
-      "maxDuration": 30,
-      "memory": 1024
-    }
-  }
+  "trailingSlash": false
 }
